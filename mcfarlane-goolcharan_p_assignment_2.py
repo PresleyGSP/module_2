@@ -1,5 +1,5 @@
 # SIMPLE DATA TYPES
-""""
+"""
 name = 'Presley'
 print("name:", name, "type:", type(name))
 his_license = 'valid'
@@ -31,9 +31,25 @@ print(numbers)
 letters = ['A', 'B', 'C']
 combined_list = numbers + letters
 print(combined_list)
-"""
 
-# Tuple
+# TUPLE
 provinces = ('MB','SK','AB','ON')
 print(type(provinces))
 print(provinces)
+"""
+# DICTIONARIES
+coins = {
+    'nickel': .05, 
+    'dime': .10, 
+    'quarter': .25
+}
+print(type(coins))
+print(coins)
+print(coins['nickel'])
+coins['nickel'] = 5
+coins['dime'] = 10
+coins['quarter'] = 25
+print(coins)
+coins['loonie'] = 100
+coins['toonie'] = 200
+print(coins)
