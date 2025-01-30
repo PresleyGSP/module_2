@@ -7,7 +7,7 @@
 - In this module assignment python file we will be:
 ~ Declaring and using simple data types.
 ~ Performing mathematical operations.
-~ Declaring and using collection types.
+~ Declaring and using collection types like lists, tuples, dictionaries, and sets.
 
 ## Author
 
