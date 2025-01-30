@@ -1,5 +1,4 @@
 # SIMPLE DATA TYPES
-"""
 name = 'Presley'
 print("name:", name, "type:", type(name))
 his_license = 'valid'
@@ -36,7 +35,7 @@ print(combined_list)
 provinces = ('MB','SK','AB','ON')
 print(type(provinces))
 print(provinces)
-"""
+
 # DICTIONARIES
 coins = {
     'nickel': .05, 
@@ -53,3 +52,18 @@ print(coins)
 coins['loonie'] = 100
 coins['toonie'] = 200
 print(coins)
+
+# SETS
+even_numbers = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+print(type(even_numbers))
+print(even_numbers)
+multiples_of_five = {5, 10, 15, 20}
+print(multiples_of_five)
+unique_values= even_numbers.union(multiples_of_five)
+print(unique_values)
+common_values = even_numbers.intersection(multiples_of_five)
+print(common_values)
+only_in_evens = even_numbers.difference(multiples_of_five)
+print(only_in_evens)
+only_in_fives = multiples_of_five.difference(even_numbers)
+print(only_in_fives)
