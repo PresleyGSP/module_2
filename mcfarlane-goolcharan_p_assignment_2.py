@@ -19,7 +19,7 @@ g_tax = 7000 * GST
 sum = honda + p_tax + g_tax
 print("Purchase Price:", honda, "Provincial Tax:", PST, "Federal Tax:", GST, "Total:", sum)
 print(f"Purchase Price: ${honda:,.2f} Provincial Tax: ${PST:,.2f} Federal Tax: ${GST:,.2f} Total: ${sum:,.2f} ")
-"""
+
 # LISTS
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(type(numbers))
@@ -31,4 +31,9 @@ print(numbers)
 letters = ['A', 'B', 'C']
 combined_list = numbers + letters
 print(combined_list)
+"""
 
+# Tuple
+provinces = ('MB','SK','AB','ON')
+print(type(provinces))
+print(provinces)
