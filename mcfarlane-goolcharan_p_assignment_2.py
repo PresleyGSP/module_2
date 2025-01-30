@@ -15,9 +15,9 @@ PST = 0.07
 honda = 7000
 p_tax = 7000 * PST
 g_tax = 7000 * GST
-sum = honda + p_tax + g_tax
-print("Purchase Price:", honda, "Provincial Tax:", PST, "Federal Tax:", GST, "Total:", sum)
-print(f"Purchase Price: ${honda:,.2f} Provincial Tax: ${PST:,.2f} Federal Tax: ${GST:,.2f} Total: ${sum:,.2f} ")
+total = honda + p_tax + g_tax
+print("Purchase Price:", honda, "Provincial Tax:", PST, "Federal Tax:", GST, "Total:", total)
+print(f"Purchase Price: ${honda:,.2f} Provincial Tax: ${PST:,.2f} Federal Tax: ${GST:,.2f} Total: ${total:,.2f} ")
 
 # LISTS
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
