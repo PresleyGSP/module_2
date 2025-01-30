@@ -24,11 +24,11 @@ print(f"Purchase Price: ${honda:,.2f} Provincial Tax: ${PST:,.2f} Federal Tax: $
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(type(numbers))
 print(numbers)
-name = 'Presley'
-numbers.insert(5, name)
+numbers.insert(5, 'Presley')
 print(numbers)
 numbers.remove(9)
 print(numbers)
 letters = ['A', 'B', 'C']
-numbers_and_letters = numbers + letters
-print(numbers_and_letters)
+combined_list = numbers + letters
+print(combined_list)
+
